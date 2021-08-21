@@ -38,6 +38,9 @@
     padding: 0 50px;
     border-bottom: none;
 }
+.navbar__container span{
+    color: green;
+}
 .fa-maxcdn{
     font-size: 25px;
     color: green;
@@ -49,6 +52,7 @@
     color: rgb(5, 20, 5);
     padding: 15px;
 }
+
 .navbar__menu{
     display: flex;
     align-items: center;
@@ -59,6 +63,15 @@ hr{
 }
 .table__container{
     display: block;
+}
+button{
+    font-size: 2rem;
+    color: green;
+    border:#F5F5F5;
+    z-index: 200;
+    display: flex;
+    padding: 100px 100px;
+    
 }
 table{
     table-layout: auto;
@@ -87,6 +100,11 @@ tr:hover{
     background-attachment: fixed;
     transform: scale(1.02);
     box-shadow: 2px 2px 12px rgb(34, 214, 109) ;
+}
+button:hover{
+    background-attachment: fixed;
+    transform: scale(1.5);
+    transition: all 0.2s ease;
 }
 
 
