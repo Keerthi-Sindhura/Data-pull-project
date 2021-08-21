@@ -70,7 +70,7 @@ button{
     border:#F5F5F5;
     z-index: 200;
     display: flex;
-    padding: 100px 100px;
+    padding: 50px 100px;
     
 }
 table{
@@ -104,7 +104,7 @@ tr:hover{
 button:hover{
     background-attachment: fixed;
     transform: scale(1.5);
-    transition: all 0.2s ease;
+    transition: all 0.1s ease;
 }
 
 
