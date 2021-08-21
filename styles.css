@@ -8,30 +8,35 @@
 }
 .navbar{
     background: #F5F5F5;
-    height: 120px;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    position: sticky;
+    position:sticky;
     top: 0;
     text-decoration: none;
     flex-direction: column;
+    z-index: 999;
 }
 .navbar h1{
     font-size: 1.5rem;
     color: #131313;
     display: inline;
 }
+.fa-maxcdn, h1{
+    padding-top: 20px;
+}
 .navbar__container{
     display: flex;
     justify-content: space-between;
     height: 80px;
-    z-index: 1;
+    z-index: 10;
     width: 100%;
     max-width: 1300px;
     margin: 0 auto;
     padding: 0 50px;
+    border-bottom: none;
 }
 .fa-maxcdn{
     font-size: 25px;
@@ -44,9 +49,74 @@
     color: rgb(5, 20, 5);
     padding: 15px;
 }
-
 .navbar__menu{
     display: flex;
     align-items: center;
     list-style: none;
+}
+hr{
+    width: 0%;
+}
+.table__container{
+    display: block;
+}
+table{
+    table-layout: auto;
+    position:absolute;
+    left: 30%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    height: 200px;
+}
+
+tr, td{
+    background: #fff;
+    border: white;
+    padding: 12px;
+    text-align: center;
+    justify-content: space-around;
+    border: none;
+    border-spacing: 2px;
+}
+td{
+    border-collapse: collapse;
+}
+
+tr:hover{
+    background-attachment: fixed;
+    transform: scale(1.02);
+    box-shadow: 2px 2px 12px rgb(34, 214, 109) ;
+}
+
+
+@media only screen and (max-width: 700px){
+    table{
+        width: 250px;
+        padding: 400px 0;
+        margin: 0 auto;
+        position: absolute;
+    }
+    
+    .fa-maxcdn{
+        font-size: 25px;
+        color: green;
+        float: left;
+    }
+    .navbar h1{
+        font-size: 20px;
+        font-weight: bold;
+        color: #131313;
+        display: inline;
+    }
+    .fa-maxcdn, h1{
+        padding: 5px;
+    }
+}
+@media only screen and (max-width: 1300px){
+    table{
+        width: 250px;
+        padding: 500px 0;
+        position: relative;
+    }
 }
