@@ -31,37 +31,37 @@
             </ul>
         </div>
     </nav>
-
-    <!--Tracking table-->
-    <hr>
-    <button> <i class="fas fa-plus-circle"></i> </button>
-    <div style="overflow-x: auto;" class="table__container">
-        <table class="w3-table">
-            <tr >
+    <!--Data set side-panel-->
+    <div class="side__panel__container"> 
+        <a href="#"><i class="fas fa-plus-circle"></i></a>
+        <table class="header">
+            <tr id="data__header">
                 <th></th>
-                <th> File Name</th>
-                <th> Cols | Rows</th>
-                <th> Last modified</th>
+                <th>Film name</th>
+                <th>Cols | Rows</th>
+                <th>Last modified</th>
             </tr>
-            <tr>
-                <td> <i class="fas fa-hand-point-right"></i> </td>
-                <td> film_actor weekly 1</td>
-                <td>empty dataset</td>
-                <td> </td>
-            </tr>
-            <tr>
-                <td> <i class="fas fa-hand-point-right"></i> </td>
-                <td> film_actor weekly 2</td>
-                <td>3 | 5,462</td>
-                <td>6 hours ago</td>
-            </tr>
-            <tr>
-                <td> <i class="fas fa-hand-point-right"></i> </td>
-                <td> film_actor weekly 2</td>
-                <td>3 | 5,462</td>
-                <td>6 hours ago</td>
-            </tr>            
         </table>
+        <table class="data__rows">
+            <tr>
+                <td><i class="fas fa-circle"></i></td>
+                <td>film_actor weekly</td>
+                <td>Empty dataset</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><i class="fas fa-circle"></i></td>
+                <td>film_actor weekly 2</td>
+                <td>3 | 5462</td>
+                <td>6 hours ago</td>
+            </tr>
+        </table>
+    </div>
+    <!--Data details-->    
+    <div class="data__details">
+        <p class="data__title">film_actor weekly</p>
+        <p id="update__time">Last update:6 hours ago</p>
+        <button class="btn"> Open</button>
     </div>
 </body>
 </html>
