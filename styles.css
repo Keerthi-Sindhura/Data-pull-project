@@ -103,52 +103,69 @@ td{
     border-radius: 8px;
     cursor: pointer;
 }
-
+.side__panel__container, .data__details{
+    float: left;
+}
 
 /*Data Details*/
 .data__details{
-    position: relative;
-    bottom: 850px;
-    left: 950px;
-    float: left;
     align-items:center;
     justify-content: center;
     text-decoration: none;
-    padding: 10px 10px;
-    height: 55%;
-    width: 40%;
+    width: 700px;
+    height: 120px;
     border: none;
     outline: none;
     border-radius: 4px;
     background: #fff;
+    position: relative;
+    top: 50px;
 }
 #update__time{
     display: inline;
     font-size: 15px;
     background: #fff;
+    padding-left: 10px;
 }
 
 .data__title{
     font-size: 20px;
     font-weight: bold;
     background: #fff;
-    padding: 10px 5px;
+    padding: 10px 10px;
 }
-.btn{
-    display: flex;
-    align-items: center;
+.btn__open{
+    text-align: center;
     justify-content: center;
     text-decoration: none;
     padding: 10px 10px;
-    margin: auto 5px;
-    height: 70%;
-    width: 20%;
+    margin: 10px 5px;
+    height: 35px;
+    width: 25%;
     border: none;
     outline: none;
-    border-radius: 4px;
+    border-radius: 4px 4px;
     background: green;
     color: #fff;
-    font-size: 20px;
-    transition: all 0.3s ease;
-    
+    font-size: 15px;
+    transition: all 0.3s ease;   
 }
+.btn__open, .btn__dots{
+    display: inline;
+    float: left;
+}
+button, #update__time{
+    display: flex;
+}
+.btn__dots{
+    border: none;
+    font-size: 20px;
+    padding: 2px 5px;
+    margin: 10px;
+    background: #fff;
+}
+
+.btn__open, .btn__dots, .fa-plus-circle:hover{
+    cursor: pointer;
+}
+
