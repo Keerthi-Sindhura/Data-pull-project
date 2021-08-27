@@ -62,7 +62,7 @@
  /*Side-Panel*/
  .side__panel__container{
     width: 50%;
-    height: 100vh;
+    height: 50vh;
     justify-content:space-between;
  }
 table{
@@ -112,7 +112,7 @@ td{
     align-items:center;
     justify-content: center;
     text-decoration: none;
-    width: 700px;
+    width: 40%;
     height: 120px;
     border: none;
     outline: none;
@@ -120,6 +120,7 @@ td{
     background: #fff;
     position: relative;
     top: 50px;
+    left: 2%;
 }
 #update__time{
     display: inline;
@@ -168,4 +169,14 @@ button, #update__time{
 .btn__open, .btn__dots, .fa-plus-circle:hover{
     cursor: pointer;
 }
+
+.data__details, .properties__container{
+    display: block;
+}
+/*Properties section*/
+
+.data__details. .properties__container{
+    display: block;
+}
+
 
