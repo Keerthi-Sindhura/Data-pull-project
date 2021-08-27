@@ -175,7 +175,7 @@ button, #update__time{
 }
 /*Properties section*/
 
-.data__details. .properties__container{
+.data__details, .properties__container{
     display: block;
 }
 
